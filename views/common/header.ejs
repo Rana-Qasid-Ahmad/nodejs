@@ -1,0 +1,49 @@
+<nav class="headerContainer">
+    <div class="headerBox">
+        <div class="headerBoxCol1">Logo Here</div>
+        <div class="headerBoxCol2">
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ol>
+        </div>
+        <div class="headerBoxCol3">
+            <button>Sign Up </button>
+        </div>
+    </div>
+</nav>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .headerContainer {
+        width: 100%;
+        display: flex;
+        background-color: aqua;
+        justify-content: center;
+    }
+    
+    .headerBox {
+        width: 90%;
+        align-items: center;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .headerBoxCol2>ol {
+        display: flex;
+        width: 300px;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+</style>
